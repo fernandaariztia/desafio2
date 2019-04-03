@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hola</title>
+	<meta charset="utf-8">
+	{% load staticfiles %}
+	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+	<style type="text/css">
+		.jumbotron {
+		 	margin: 30px;
+		}
+	</style>
+	<style>
+body {
+    background-color: white;
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+</style>
+</head>
+<body>
+<div class="container-fluid">
+
+	<h1>Profesores:</li>
+
+
+	<ul>
+  <li>Juan Velasquez</li>
+  <li>Victor Hernandez</li>
+
+</ul>
+
+	<h1>Auxiliares:</li>
+
+
+	<ul>
+  <li>José Canto</li>
+  <li>Jorge Pinto</li>
+  <li>Javiera Ovalle</li>
+  <li>Macarena Osorio</li>
+
+</ul>
+
+
+	<h1>Ayudantes:</li>
+
+
+	<ul>
+  <li>Victoria Arce</li>
+  <li>Sofia Herrera</li>
+  <li>Sebastian Donoso</li>
+  <li>Rodrigo Pizarro</li>
+  <li>Nicolas Villa</li>
+  <li>Benjamin Hurtado</li>
+  <li>Carlos Vega</li>
+  <li>Francisco Barrera</li>
+  <li>Juan Gutierrez</li>
+
+</ul>
+<a href="{% url 'index'  %}">Inicio</a>
+<a href="{% url 'tercero'  %}">Ramos</a>
+
+
+			
+</div>
+</body>
+</html>
+
+
+
+
+
+

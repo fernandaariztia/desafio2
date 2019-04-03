@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hola</title>
+	<meta charset="utf-8">
+	{% load staticfiles %}
+	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+	<style type="text/css">
+		.jumbotron {
+		 	margin: 30px;
+		}
+	</style>
+	<style>
+body {
+    background-color: white;
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+}
+h1 {
+    color: red;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+</style>
+</head>
+<body>
+<div class="container-fluid">
+	
+
+
+	<h1>Ramos otoño 2019</h1>
+
+
+	<ul>
+  <li>Electromagnetismo</li>
+  <li>Tecnologias de la Informacion y Comunicacion</li>
+  <li>Modelamiento y Optimizacion</li>
+  <li>Taller de Ingenieria Industrial</li>
+  
+
+</ul>
+
+<a href="{% url 'team'  %}">Equipo Docente</a>
+<a href="{% url 'index'  %}">Inicio</a>
+</div>
+</body>
+</html>
+
+
+
+
+
+
